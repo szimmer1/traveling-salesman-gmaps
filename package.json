@@ -1,0 +1,18 @@
+{
+  "name": "traveling_salesman",
+  "version": "1.0.0",
+  "description": "Web app to solve traveling salesman problem for specific applications",
+  "main": "index.js",
+  "scripts": {
+    "babel": "babel --presets es2015 js/main.js -o build/main.bundle.js",
+    "start": "http-server",
+    "webpack": "webpack"
+  },
+  "author": "Shahar Zimmerman (shahar.zimmerman.usa@gmail.com)",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "webpack": "^4.7.0"
+  }
+}
